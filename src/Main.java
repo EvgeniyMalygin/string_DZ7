@@ -6,7 +6,10 @@ public class Main {
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
         String fullName = lastName + " " + firstName + " " + middleName;
-        System.out.printf("ФИО сотрудника - %s", fullName);
+        System.out.printf("ФИО сотрудника - %s \n", fullName);
 
+        // Задание 2
+        System.out.println("========== Задание 2 ==========");
+        System.out.printf("ФИО сотрудника - %s \n", fullName.toUpperCase());
     }
 }
